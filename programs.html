@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs | Faculty of Medicine UZ</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #f9f9f9; }
+        header, footer { background: #004d40; color: white; text-align: center; padding: 20px; }
+        nav { background: #00695c; text-align: center; padding: 10px; }
+        nav a { color: white; margin: 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 20px; max-width: 900px; margin: auto; }
+        h2 { color: #004d40; margin: 20px 0 10px; }
+        ul { margin-left: 50px; line-height: 1.8; }
+        img { width: 100%; max-width: 600px; border-radius: 10px; margin: 20px auto; display: block; }
+        .counter { font-size: 24px; color: #00695c; font-weight: bold; text-align: center; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Programs</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="programs.html">Programs</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Undergraduate Programs</h2>
+        <ul>
+            <li>Bachelor of Medicine and Bachelor of Surgery (MBChB)</li>
+            <li>Bachelor of Science in Nursing</li>
+            <li>Bachelor of Science in Medical Laboratory Sciences</li>
+        </ul>
+
+        <h2>Postgraduate Programs</h2>
+        <ul>
+            <li>Master of Medicine (MMed)</li>
+            <li>Master of Public Health (MPH)</li>
+            <li>PhD in Medical Sciences</li>
+        </ul>
+
+        <div class="counter">Total Programs: <span id="programCount">0</span></div>
+        
+        <img src="student.jpg"Anatomy Laboratory">
+        
+        <button onclick="showPrograms()" style="background:#00695c; color:white; border:none; padding:10px 20px; cursor:pointer; margin:10px auto; display:block;">Show Program Details</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Faculty of Medicine | University of Zimbabwe</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

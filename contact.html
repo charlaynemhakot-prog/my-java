@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Faculty of Medicine UZ</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #f9f9f9; }
+        header, footer { background: #004d40; color: white; text-align: center; padding: 20px; }
+        nav { background: #00695c; text-align: center; padding: 10px; }
+        nav a { color: white; margin: 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 20px; max-width: 900px; margin: auto; }
+        h2 { color: #004d40; margin: 20px 0 10px; }
+        .contact-info { background: white; padding: 20px; border-radius: 10px; margin: 20px 0; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        button { background: #00695c; color: white; border: none; padding: 10px 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="programs.html">Programs</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p><strong>Address:</strong> University of Zimbabwe, Mt Pleasant, Harare, Zimbabwe</p>
+            <p><strong>Phone:</strong> +263 242 303211</p>
+            <p><strong>Email:</strong> medicine@uz.ac.zw</p>
+        </div>
+
+        <h2>Send Us a Message</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Faculty of Medicine | University of Zimbabwe</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
